@@ -4,7 +4,9 @@
 
     <item
         android:id="@+id/t1"
-        android:title="TTT11" />
+        android:icon="@android:drawable/ic_input_add"
+        android:title="TTT11"
+        app:showAsAction="always" />
     <item
         android:id="@+id/t2"
         android:title="TTT22" />

@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-
         getMenuInflater().inflate(R.menu.mymenu, menu);
         return super.onCreateOptionsMenu(menu);
     }
@@ -31,9 +30,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.t2:
                 Toast.makeText(MainActivity.this, "Test2 被按下", Toast.LENGTH_SHORT).show();
                 break;
-
         }
-
         return super.onOptionsItemSelected(item);
     }
 }
